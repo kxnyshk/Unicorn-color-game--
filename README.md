@@ -13,9 +13,9 @@ A basic Javascript game of color swapping using HTML, CSS, Bootstrap &amp; Js.
 # Understanding the game
   - The game is based on 6 different colours arranged in a pattern.
   - Once you click, two random colours swaps.
-  - You have to bring it down to the same colour order sa starting.
+  - You have to bring it down to the same colour order as the starting.
   - For ease, the original color order have been mentioned at each bar.
 
 # Hosting
-  - The project have been hosted on [netlify](https://www.netlify.com/)
-  - Host [link](https://github.com/kxnyshk)
+  - The project have been hosted via [netlify](https://www.netlify.com/)
+  - Host [link](https://unicorncolorgame.netlify.app/)
