@@ -1,0 +1,530 @@
+/* body */
+body{
+    width:100%;
+    overflow-x:hidden;
+}
+
+/* author */
+#author{
+    text-align: right;
+    font-size: 0.7em;
+    padding-right: 1em;
+    padding-top: 1em;
+}
+
+#author a{
+    color: white;
+    text-decoration: none;
+}
+
+/* #color-divs */
+#red{
+    background-color: #f96a6a;
+    height: 7.52em;
+    width: 100%;
+}
+#pink{
+    background-color: lightpink;
+    height: 7.52em;
+    width: 100%;
+}
+#yellow{
+    background-color: khaki;
+    height: 7.52em;
+    width: 100%;
+}
+#green{
+    background-color: lightgreen;
+    height: 7.52em;
+    width: 100%;
+}
+#cyan{
+    background-color: cyan;
+    height: 7.52em;
+    width: 100%;
+}
+#violet{
+    background-color: mediumpurple;
+    height: 7.52em;
+    width: 100%;
+}
+
+/* text divs */
+#text-red{
+    text-align: center;
+    font-size: 2em;
+    padding-top: 1.25em;
+    padding-left: 3em;
+    letter-spacing: 2em;
+    color: #ffd3da;
+}
+#text-pink{
+    text-align: center;
+    font-size: 2em;
+    padding-top: 1.25em;
+    padding-left: 3em;
+    letter-spacing: 2em;
+    color: #d72d2d;
+}
+#text-yellow{
+    text-align: center;
+    font-size: 2em;
+    padding-top: 1.25em;
+    padding-left: 3em;
+    letter-spacing: 2em;
+    color: #00e173;;
+}
+#text-green{
+    text-align: center;
+    font-size: 2em;
+    padding-top: 1.25em;
+    padding-left: 3em;
+    letter-spacing: 2em;
+    color: #fff599;;
+}
+#text-cyan{
+    text-align: center;
+    font-size: 2em;
+    padding-top: 1.25em;
+    padding-left: 3em;
+    letter-spacing: 2em;
+    color: #7848da;
+}
+#text-violet{
+    text-align: center;
+    font-size: 2em;
+    padding-top: 1.25em;
+    padding-left: 3em;
+    letter-spacing: 2em;
+    color: #7fffff;
+}
+
+/* media queries */
+@media (max-width: 700px){
+    #author{
+        display: none;
+    }
+}
+
+@media (max-width: 605px){
+    #red{
+        width: 38em;
+    }
+    #pink{
+        width: 38em;
+    }
+    #yellow{
+        width: 38em;
+    }
+    #green{
+        width: 38em;
+    }
+    #cyan{
+        width: 38em;
+    }
+    #violet{
+        width: 38em;
+    }
+}
+
+@media (max-width: 564px){
+    #red{
+        height: 8em;
+    }
+    #pink{
+        height: 8em;
+    }
+    #yellow{
+        height: 8em;
+    }
+    #green{
+        height: 8em;
+    }
+    #cyan{
+        height: 8em;
+    }
+    #violet{
+        height: 8em;
+    }
+    #text-red{
+        padding-top: 1.35em;
+    }
+    #text-pink{
+        padding-top: 1.35em;
+    }
+    #text-yellow{
+        padding-top: 1.35em;
+    }
+    #text-green{
+        padding-top: 1.35em;
+    }
+    #text-cyan{
+        padding-top: 1.35em;
+    }
+    #text-violet{
+        padding-top: 1.35em;
+    }
+}
+
+@media (max-width: 530px){
+    #red{
+        height: 8.5em;
+    }
+    #pink{
+        height: 8.5em;
+    }
+    #yellow{
+        height: 8.5em;
+    }
+    #green{
+        height: 8.5em;
+    }
+    #cyan{
+        height: 8.5em;
+    }
+    #violet{
+        height: 8.5em;
+    }
+    #text-red{
+        padding-top: 1.55em;
+    }
+    #text-pink{
+        padding-top: 1.55em;
+    }
+    #text-yellow{
+        padding-top: 1.55em;
+    }
+    #text-green{
+        padding-top: 1.55em;
+    }
+    #text-cyan{
+        padding-top: 1.55em;
+    }
+    #text-violet{
+        padding-top: 1.55em;
+    }
+}
+
+@media (max-width: 500px){
+    #red{
+        height: 9em;
+    }
+    #pink{
+        height: 9em;
+    }
+    #yellow{
+        height: 9em;
+    }
+    #green{
+        height: 9em;
+    }
+    #cyan{
+        height: 9em;
+    }
+    #violet{
+        height: 9em;
+    }
+    #text-red{
+        padding-top: 1.65em;
+    }
+    #text-pink{
+        padding-top: 1.65em;
+    }
+    #text-yellow{
+        padding-top: 1.65em;
+    }
+    #text-green{
+        padding-top: 1.65em;
+    }
+    #text-cyan{
+        padding-top: 1.65em;
+    }
+    #text-violet{
+        padding-top: 1.65em;
+    }
+}
+
+@media (max-width: 472px){
+    #red{
+        height: 9.5em;
+    }
+    #pink{
+        height: 9.5em;
+    }
+    #yellow{
+        height: 9.5em;
+    }
+    #green{
+        height: 9.5em;
+    }
+    #cyan{
+        height: 9.5em;
+    }
+    #violet{
+        height: 9.5em;
+    }
+    #text-red{
+        padding-top: 1.75em;
+    }
+    #text-pink{
+        padding-top: 1.75em;
+    }
+    #text-yellow{
+        padding-top: 1.75em;
+    }
+    #text-green{
+        padding-top: 1.75em;
+    }
+    #text-cyan{
+        padding-top: 1.75em;
+    }
+    #text-violet{
+        padding-top: 1.75em;
+    }
+}
+
+@media (max-width: 445px){
+    #red{
+        height: 10em;
+    }
+    #pink{
+        height: 10em;
+    }
+    #yellow{
+        height: 10em;
+    }
+    #green{
+        height: 10em;
+    }
+    #cyan{
+        height: 10em;
+    }
+    #violet{
+        height: 10em;
+    }
+    #text-red{
+        padding-top: 1.85em;
+    }
+    #text-pink{
+        padding-top: 1.85em;
+    }
+    #text-yellow{
+        padding-top: 1.85em;
+    }
+    #text-green{
+        padding-top: 1.85em;
+    }
+    #text-cyan{
+        padding-top: 1.85em;
+    }
+    #text-violet{
+        padding-top: 1.85em;
+    }
+}
+
+@media (max-width: 424px){
+    #red{
+        height: 10.5em;
+    }
+    #pink{
+        height: 10.5em;
+    }
+    #yellow{
+        height: 10.5em;
+    }
+    #green{
+        height: 10.5em;
+    }
+    #cyan{
+        height: 10.5em;
+    }
+    #violet{
+        height: 10.5em;
+    }
+    #text-red{
+        padding-top: 1.95em;
+        padding-left: 2.7em;
+    }
+    #text-pink{
+        padding-top: 1.95em;
+        padding-left: 2.7em;
+    }
+    #text-yellow{
+        padding-top: 1.95em;
+        padding-left: 2.7em;
+    }
+    #text-green{
+        padding-top: 1.95em;
+        padding-left: 2.7em;
+    }
+    #text-cyan{
+        padding-top: 1.95em;
+        padding-left: 2.7em;
+    }
+    #text-violet{
+        padding-top: 1.95em;
+        padding-left: 2.7em;
+    }
+}
+
+@media (max-width: 404px){
+    #red{
+        height: 11em;
+    }
+    #pink{
+        height: 11em;
+    }
+    #yellow{
+        height: 11em;
+    }
+    #green{
+        height: 11em;
+    }
+    #cyan{
+        height: 11em;
+    }
+    #violet{
+        height: 11em;
+    }
+    #text-red{
+        padding-top: 2.25em;
+    }
+    #text-pink{
+        padding-top: 2.25em;
+    }
+    #text-yellow{
+        padding-top: 2.25em;
+    }
+    #text-green{
+        padding-top: 2.25em;
+    }
+    #text-cyan{
+        padding-top: 2.25em;
+    }
+    #text-violet{
+        padding-top: 2.25em;
+    }
+}
+
+@media (max-width: 385px){
+    #red{
+        height: 11.5em;
+    }
+    #pink{
+        height: 11.5em;
+    }
+    #yellow{
+        height: 11.5em;
+    }
+    #green{
+        height: 11.5em;
+    }
+    #cyan{
+        height: 11.5em;
+    }
+    #violet{
+        height: 11.5em;
+    }
+    #text-red{
+        padding-top: 2.35em;
+        padding-left: 2.7em;
+    }
+    #text-pink{
+        padding-top: 2.35em;
+        padding-left: 2.7em;
+    }
+    #text-yellow{
+        padding-top: 2.35em;
+        padding-left: 2.7em;
+    }
+    #text-green{
+        padding-top: 2.35em;
+        padding-left: 2.7em;
+    }
+    #text-cyan{
+        padding-top: 2.35em;
+        padding-left: 2.7em;
+    }
+    #text-violet{
+        padding-top: 2.35em;
+        padding-left: 2.7em;
+    }
+}
+
+@media (max-width: 367px){
+    #red{
+        height: 12em;
+    }
+    #pink{
+        height: 12em;
+    }
+    #yellow{
+        height: 12em;
+    }
+    #green{
+        height: 12em;
+    }
+    #cyan{
+        height: 12em;
+    }
+    #violet{
+        height: 12em;
+    }
+    #text-red{
+        padding-top: 2.45em;
+    }
+    #text-pink{
+        padding-top: 2.45em;
+    }
+    #text-yellow{
+        padding-top: 2.45em;
+    }
+    #text-green{
+        padding-top: 2.45em;
+    }
+    #text-cyan{
+        padding-top: 2.45em;
+    }
+    #text-violet{
+        padding-top: 2.45em;
+    }
+}
+
+@media (max-width: 353px){
+    #red{
+        height: 12.5em;
+    }
+    #pink{
+        height: 12.5em;
+    }
+    #yellow{
+        height: 12.5em;
+    }
+    #green{
+        height: 12.5em;
+    }
+    #cyan{
+        height: 12.5em;
+    }
+    #violet{
+        height: 12.5em;
+    }
+    #text-red{
+        padding-top: 2.5em;
+    }
+    #text-pink{
+        padding-top: 2.5em;
+    }
+    #text-yellow{
+        padding-top: 2.5em;
+    }
+    #text-green{
+        padding-top: 2.5em;
+    }
+    #text-cyan{
+        padding-top: 2.5em;
+    }
+    #text-violet{
+        padding-top: 2.5em;
+    }
+}
