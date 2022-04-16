@@ -1,5 +1,5 @@
 # unicorn-color-game.js
-A basic Javascript game of color swapping using HTML, CSS, Bootstrap &amp; Js.
+An online JavaScript based game application of color swapping bars with each user click, and bringing back it to the similar initial order as started with.
 
 # Fetching the repo
   - Download the [.zip](https://github.com/kxnyshk/unicorn-color-game.js/archive/refs/heads/master.zip) file
